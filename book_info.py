@@ -7,3 +7,6 @@ class book:
         self.pageCount: pageCount
 
     def newBook(self):
+        print("add a new book!")
+
+    def updateBookInfo
