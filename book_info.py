@@ -1,3 +1,5 @@
+
+
 class book:
     def __init__(self, title, firstName, lastName, publicationDate, pageCount):
         self.title: title
@@ -9,4 +11,6 @@ class book:
     def newBook(self):
         print("add a new book!")
 
-    def updateBookInfo
+    def updateBookInfo(self):
+        print("updating book info")
+        #will be able to work/manipulate table entries in the db
