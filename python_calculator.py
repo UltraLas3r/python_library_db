@@ -22,15 +22,18 @@ def run_math_process(operand):
 
 
 operator_choice = input("Choose a math operator (+ - * /): ")
+
 match operator_choice:
     case "+":
         print("You choose addition")
         run_math_process('+')
-
     case "-":
         print("You choose subtraction")
+        run_math_process('-')
     case "*":
         print("You choose multiplication")
+        run_math_process('*')
     case "/":
         print("You choose division")
+        run_math_process('/')
 
